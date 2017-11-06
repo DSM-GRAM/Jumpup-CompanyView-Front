@@ -1,0 +1,329 @@
+#side {
+    width: 20vw;
+    height: 100vh;
+    background: #cccfd6;
+    float: left;
+}
+
+#logo {
+    width: 66%;
+    height: 4%;
+    margin-left: 17%;
+    margin-right: 17%;
+    margin-top: 6%;
+    margin-bottom: 4%;
+}
+
+#process_area {
+    width: 100%;
+    height: 86%;
+    margin-top: 6%;
+}
+
+#pointA {
+    width: 2%;
+    height: 1%;
+    background-color: transparent;
+    border: solid 10px #ED5564;
+    border-radius: 50%;
+    margin-left: 46%;
+}
+
+#textA {
+    float: right;
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+    margin-right: 14%;
+    margin-top: 14%; 
+}
+
+#pathA {
+    width: 3%;
+    height: 20%;
+    background: #ED5564;
+    margin-left: 48.2%;
+    margin-top: -1%;
+}
+
+#pointB {
+    width: 2%;
+    height: 1%;
+    background-color: transparent;
+    border: solid 10px #A0D468;
+    border-radius: 50%;
+    margin-left: 46%;
+    margin-top: -1%;
+}
+
+#textB {
+    float: left;
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 12%;
+    margin-top: 8%; 
+}
+
+#pathB {
+    width: 3%;
+    height: 14%;
+    background: #A0D468;
+    margin-left: 48.2%;
+    margin-top: -1%;
+}
+
+#pointC {
+    width: 2%;
+    height: 1%;
+    background-color: transparent;
+    border: solid 10px #4FC0E8;
+    border-radius: 50%;
+    margin-left: 46%;
+    margin-top: -1%;
+}
+
+#textC {
+    float: right;
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+    margin-right: 10%;
+    margin-top: 4%; 
+}
+
+#pathC {
+    width: 3%;
+    height: 10%;
+    background: #4FC0E8;
+    margin-left: 48.2%;
+    margin-top: -1%;
+}
+
+#pointD {
+    width: 2%;
+    height: 1%;
+    background-color: transparent;
+    border: solid 10px #AC92ED;
+    border-radius: 50%;
+    margin-left: 46%;
+    margin-top: -1%;
+}
+
+#textD {
+    float: left;
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 7%;
+    margin-top: 6%; 
+}
+
+#pathD {
+    width: 3%;
+    height: 12%;
+    background: #AC92ED;
+    margin-left: 48.2%;
+    margin-top: -1%;
+}
+
+#pointE {
+    width: 2%;
+    height: 1%;
+    background-color: transparent;
+    border: solid 10px #656D78;
+    border-radius: 50%;
+    margin-left: 46%;
+    margin-top: -1%;
+}
+
+#textE {
+    float: right;
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+    margin-right: 4%;
+    margin-top: 0%; 
+}
+
+#pathE {
+    width: 3%;
+    height: 6%;
+    background: #656D78;
+    margin-left: 48.2%;
+    margin-top: -1%;
+}
+
+#pointF {
+    width: 2%;
+    height: 1%;
+    background-color: transparent;
+    border: solid 10px #ffffff;
+    border-radius: 50%;
+    margin-left: 46%;
+    margin-top: -1%;
+}
+
+#textF {
+    float: left;
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 7%;
+    margin-top: 12%; 
+}
+
+#pathF {
+    width: 3%;
+    height: 18%;
+    background: #ffffff;
+    margin-left: 48.2%;
+    margin-top: -1%;
+}
+
+#content {
+    width: 100%;
+    height: 100%;
+}
+
+.card {
+    width: 23vw;
+    height: 90vh;
+    margin-top: 2.5%;
+    float: left;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+#card1 {
+    margin-left: 2.6%;
+}
+
+#card2 {
+    margin-left: 4.25%;
+}
+
+#card3 {
+    margin-left: 4.25%;
+}
+
+.company_image {
+    width: 100%;
+    height: 20%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.logo_area {
+    width: 28%;
+    height: 14%;
+    border:1px solid black;
+    position: relative;
+    top: -9%;
+    left: 35%;
+    overflow: hidden;
+}
+
+.company_logo {
+    /* position: absolute;
+    left: -100%;
+    right: -100%;
+    top: -100%;
+    bottom: -100%;
+    min-height: 100%;
+    min-width: 100%;
+    margin: auto; */
+}
+
+.company_name {
+    color: #4d4f51;
+    margin-top: -16%;
+    text-align: center;
+}
+
+.company_address {
+    color: gray;
+    text-align: center;
+    font-size: 17px;
+    margin-top: -4%;
+}
+
+.title_info {
+    border-bottom:2px solid #e4e4e4;
+    width: 30%;
+    font-size: 20px;
+    font-weight: bold;
+    color: #4d4f51;
+    padding: 2%;
+    text-align: center;
+    margin-left: 33%;
+    margin-bottom: 10%;
+    margin-top: -2%;
+}
+
+.company_info {
+    color: #4d4f51;
+    font-size: 18px;
+    text-align: center;
+    font-weight: lighter;
+    margin-top: -6%;
+}
+
+.company_major {
+    text-align: center;
+    color: #419dfc;
+    font-size: 17px;
+}
+
+.company_intro {
+    text-align: left;
+    color: gray;
+    font-size: 17px;
+    margin-left: 2.4%;
+    margin-top: -2%;
+}
+
+.work_info {
+    width: 92%;
+    height: 9%;
+    margin-left: 4%;
+    margin-right: 4%;
+    border-radius: 10px;
+}
+
+.work_info_box {
+    width: 98%;
+    height: 100%;
+    background: #e4e4e4;
+    border-radius: 10px;
+    float: right;
+}
+
+#work_info_one {
+    background: #ED5564;
+    margin-top: -6%;
+}
+
+#work_info_two {
+    background: #A0D468;
+    margin-top: 4%;
+}
+
+.work_info_title {
+    color: #4d4f51;
+    margin-left: 4%;
+    margin-top: 2%;
+}
+
+.work_info_pay {
+    color: gray;
+    margin-left: 4%;
+    margin-top: -5%;
+}
+
+.work_info_stack {
+    color: gray;
+    margin-left: 4%;
+    margin-top: -4%;
+}
