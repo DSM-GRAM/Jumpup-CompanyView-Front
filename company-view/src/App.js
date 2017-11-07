@@ -1,6 +1,6 @@
 import React from 'react';
 import Category from './Component/Category';
-import ContentWrapper from './Component/Contents/ContentsWrapper';
+import CompanyWrapper from './Component/Contents/CompanyWrapper';
 import './Component/main.css'
 
 class App extends React.Component {
@@ -8,7 +8,7 @@ class App extends React.Component {
     return (
       <div>
         <Category/>
-        <ContentWrapper/>
+        <CompanyWrapper/>
       </div>
     );
   }

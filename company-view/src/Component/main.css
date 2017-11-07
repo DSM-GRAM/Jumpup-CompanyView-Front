@@ -1,5 +1,5 @@
 #side {
-    width: 20vw;
+    width: 20%;
     height: 100vh;
     background: #cccfd6;
     float: left;
@@ -14,171 +14,176 @@
     margin-bottom: 4%;
 }
 
-#process_area {
+#progress_area {
     width: 100%;
-    height: 86%;
+    height: 80%;
     margin-top: 6%;
 }
 
 #pointA {
     width: 2%;
-    height: 1%;
-    background-color: transparent;
-    border: solid 10px #ED5564;
-    border-radius: 50%;
+    height: 0.8%;
+    background: transparent;
+    border:12px solid #ED5564;
+    border-radius: 20px;
     margin-left: 46%;
+    margin-bottom: -0.4%;
 }
 
-#textA {
-    float: right;
-    color: black;
-    font-weight: bold;
-    font-size: 24px;
-    margin-right: 14%;
-    margin-top: 14%; 
+#valueA {
+    width: 100%;
+    height: 20%;
+    overflow: hidden;
+    text-align: right;
+    display : flex;
+    align-items : center;
 }
 
 #pathA {
-    width: 3%;
-    height: 20%;
+    width: 3.4%;
+    height: 100%;
+    margin-left: 48.4%;
     background: #ED5564;
-    margin-left: 48.2%;
-    margin-top: -1%;
+    float: left;
+}
+
+#textA {
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 8%;
 }
 
 #pointB {
     width: 2%;
-    height: 1%;
-    background-color: transparent;
-    border: solid 10px #A0D468;
-    border-radius: 50%;
+    height: 0.8%;
+    background: transparent;
+    border:12px solid #A0D468;
+    border-radius: 20px;
     margin-left: 46%;
-    margin-top: -1%;
+    margin-bottom: -0.4%;
+    margin-top: -0.1%;
 }
 
-#textB {
-    float: left;
-    color: black;
-    font-weight: bold;
-    font-size: 24px;
-    margin-left: 12%;
-    margin-top: 8%; 
+#valueB {
+    width: 100%;
+    height: 15%;
+    overflow: hidden;
+    text-align: left;
+    display : flex;
+    align-items : center;
 }
 
 #pathB {
-    width: 3%;
-    height: 14%;
+    width: 3.4%;
+    height: 100%;
     background: #A0D468;
-    margin-left: 48.2%;
-    margin-top: -1%;
+    float: left;
+    margin-left: 7%;
+}
+
+#textB {
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 10%;
 }
 
 #pointC {
     width: 2%;
-    height: 1%;
-    background-color: transparent;
-    border: solid 10px #4FC0E8;
-    border-radius: 50%;
+    height: 0.8%;
+    background: transparent;
+    border:12px solid #4FC0E8;
+    border-radius: 20px;
     margin-left: 46%;
-    margin-top: -1%;
+    margin-bottom: -0.4%;
 }
 
-#textC {
-    float: right;
-    color: black;
-    font-weight: bold;
-    font-size: 24px;
-    margin-right: 10%;
-    margin-top: 4%; 
+#valueC {
+    width: 100%;
+    height: 12%;
+    overflow: hidden;
+    text-align: right;
+    display : flex;
+    align-items : center;
 }
 
 #pathC {
-    width: 3%;
-    height: 10%;
+    width: 3.4%;
+    height: 100%;
+    margin-left: 48.4%;
     background: #4FC0E8;
-    margin-left: 48.2%;
-    margin-top: -1%;
+    float: left;
+}
+
+#textC{
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 6%;
 }
 
 #pointD {
     width: 2%;
-    height: 1%;
-    background-color: transparent;
-    border: solid 10px #AC92ED;
-    border-radius: 50%;
+    height: 0.8%;
+    background: transparent;
+    border:12px solid #AC92ED;
+    border-radius: 20px;
     margin-left: 46%;
-    margin-top: -1%;
+    margin-bottom: -0.4%;
 }
 
-#textD {
-    float: left;
-    color: black;
-    font-weight: bold;
-    font-size: 24px;
-    margin-left: 7%;
-    margin-top: 6%; 
+#valueD {
+    width: 100%;
+    height: 16%;
+    overflow: hidden;
+    text-align: right;
+    display : flex;
+    align-items : center;
 }
 
 #pathD {
-    width: 3%;
-    height: 12%;
+    width: 3.4%;
+    height: 100%;
+    margin-left: 4.3%;
     background: #AC92ED;
-    margin-left: 48.2%;
-    margin-top: -1%;
+    float: left;
+}
+
+#textD {
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 5%;
 }
 
 #pointE {
     width: 2%;
-    height: 1%;
-    background-color: transparent;
-    border: solid 10px #656D78;
-    border-radius: 50%;
+    height: 0.8%;
+    background: transparent;
+    border:12px solid #656D78;
+    border-radius: 20px;
     margin-left: 46%;
-    margin-top: -1%;
+    margin-bottom: -0.4%;
 }
 
-#textE {
-    float: right;
-    color: black;
-    font-weight: bold;
-    font-size: 24px;
-    margin-right: 4%;
-    margin-top: 0%; 
+#valueE {
+    width: 100%;
+    height: 6%;
+    overflow: hidden;
+    text-align: right;
+    display : flex;
+    align-items : center;
 }
 
 #pathE {
-    width: 3%;
-    height: 6%;
+    width: 3.4%;
+    height: 100%;
+    margin-left: 48.4%;
     background: #656D78;
-    margin-left: 48.2%;
-    margin-top: -1%;
-}
-
-#pointF {
-    width: 2%;
-    height: 1%;
-    background-color: transparent;
-    border: solid 10px #ffffff;
-    border-radius: 50%;
-    margin-left: 46%;
-    margin-top: -1%;
-}
-
-#textF {
     float: left;
-    color: black;
-    font-weight: bold;
-    font-size: 24px;
-    margin-left: 7%;
-    margin-top: 12%; 
 }
 
-#pathF {
-    width: 3%;
-    height: 18%;
-    background: #ffffff;
-    margin-left: 48.2%;
-    margin-top: -1%;
+#textE {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 6%;
 }
 
 #content {
@@ -186,8 +191,42 @@
     height: 100%;
 }
 
+#pointF {
+    width: 2%;
+    height: 0.8%;
+    background: transparent;
+    border:12px solid #FFFFFF;
+    border-radius: 20px;
+    margin-left: 46%;
+    margin-bottom: -0.4%;
+}
+
+#valueF {
+    width: 100%;
+    height: 15%;
+    overflow: hidden;
+    text-align: right;
+    display : flex;
+    align-items : center;
+}
+
+#pathF {
+    width: 3.4%;
+    height: 100%;
+    margin-left: 4.3%;
+    background: #FFFFFF;
+    float: left;
+}
+
+#textF {
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 5%;
+}
+
+
 .card {
-    width: 23vw;
+    width: 22%;
     height: 90vh;
     margin-top: 2.5%;
     float: left;
@@ -290,6 +329,7 @@
     margin-left: 4%;
     margin-right: 4%;
     border-radius: 10px;
+    margin-top: 3%;
 }
 
 .work_info_box {
@@ -302,12 +342,10 @@
 
 #work_info_one {
     background: #ED5564;
-    margin-top: -6%;
 }
 
 #work_info_two {
     background: #A0D468;
-    margin-top: 4%;
 }
 
 .work_info_title {

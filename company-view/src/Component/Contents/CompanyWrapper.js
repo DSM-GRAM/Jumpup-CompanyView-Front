@@ -2,7 +2,7 @@ import React from 'react';
 import CompanyCard from './CompanyCard';
 import './../main.css'
 
-class ContentWrapper extends React.Component{
+class CompanyWrapper extends React.Component{
     render(){
         return(
             <div id="content"> 
@@ -14,4 +14,4 @@ class ContentWrapper extends React.Component{
     }
 }
 
-export default ContentWrapper;
+export default CompanyWrapper;
