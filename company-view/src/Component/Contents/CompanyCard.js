@@ -10,8 +10,12 @@ class CompanyCard extends React.Component{
         let positions=this.props.company.positions;
 
         let getCompanyPostion=()=>{
+            let i = 0;
             return(
                 positions.map(function(position){
+                    i++;
+                    console.log(i);
+                    if (i > 2) return;
                     return(
                         <CompanyPosition position={position}/>
                     )

@@ -16,7 +16,7 @@ class CompanyInfo extends React.Component{
                 summaryTags.map(function (tag) {
                     i++;
                     if (i === summaryTags.length) return tag + "...";
-                    else return tag + ", ";
+                    return tag + ", ";
                 })
             )
         }
