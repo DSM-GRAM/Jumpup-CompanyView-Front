@@ -1,11 +1,12 @@
 import React from 'react';
-import styles from './main.css'
+import styles from './main.css';
+import logo from './logo2.png';
 
 class Category extends React.Component{
     render(){
         return(
             <div id="side">
-            <img id="logo" alt="이미지가 없습니다."/>
+            <img id="logo" alt="이미지가 없습니다." src={logo}/>
             <div id="progress_area">
                 <div id="pointA"></div>
                 <div id="valueA">
